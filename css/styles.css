@@ -11671,9 +11671,12 @@ nav-link
 }
 
 .table_time{
-  border-bottom:3px #cccccc solid;
-  padding:0.2rem;
-  font-size:15px;
+  border-bottom:3.5px #cccccc solid;
+  padding-top:1rem;
+  padding-bottom:1rem;
+  padding-right:1rem;
+  padding-left:2rem;
+  font-size:17px;
 }
 
 .sm_size{
@@ -11693,8 +11696,11 @@ nav-link
 
 .text_size{
 font-size:25px;
-
 }
+.text_size2{
+font-size:23px;
+}
+
 
 .text_small{
 	padding-left:12%;
