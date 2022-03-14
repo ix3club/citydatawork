@@ -11449,6 +11449,22 @@ object-fit:cover;
  
 }
 
+.sp_img3{
+  width: 12rem;
+  margin:auto
+}
+.sp_img4{
+  width: 15rem;
+  margin:auto
+ 
+}
+
+.sp_img5{
+  width: 3rem;
+  margin:auto
+ 
+}
+
 
 .Organizer-member h5, .Organizer-member .h5 {
   margin-top: 1.5rem;
