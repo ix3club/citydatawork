@@ -11450,17 +11450,23 @@ object-fit:cover;
 }
 
 .sp_img3{
-  width: 12rem;
+  width: 10rem;
   margin:auto
 }
 .sp_img4{
-  width: 15rem;
+  width: 16rem;
   margin:auto
  
 }
 
 .sp_img5{
-  width: 3rem;
+  width: 12rem;
+  margin:auto
+ 
+}
+
+.sp_img6{
+  width: 9rem;
   margin:auto
  
 }
