@@ -4380,6 +4380,13 @@ textarea.form-control-lg {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+
+}
+
+.card_pad{
+
+  padding-left:4%;
+  padding-right:4%;
 }
 .card > hr {
   margin-right: 0;
@@ -11600,9 +11607,14 @@ nav-link
  
   /*background-color:#E0E0E0;*/
   padding-top: 0.1rem;
-    padding-bottom: 9rem;
+  padding-bottom: 9rem;
+ }
+.row_sm{
+
+width:75%;
 
 }
+
 .agenda img {
  
   background-color:#E0E0E0;
@@ -11613,9 +11625,9 @@ nav-link
 }
 .agenda .card {
   border: 0;
-  
-
   border-radius:7%;
+
+
 }
 .agenda .card-body {
   background:#b9ffd7;
@@ -11650,9 +11662,6 @@ nav-link
 
 .card_hover:hover {
 	transform:scale(1.1);
-}
-.card_pad{
-	margin-top:2rem;
 }
 
 .nav-img{
