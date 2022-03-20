@@ -4384,10 +4384,11 @@ textarea.form-control-lg {
 }
 
 .card_pad{
-
   padding-left:4%;
   padding-right:4%;
 }
+
+
 .card > hr {
   margin-right: 0;
   margin-left: 0;
@@ -11609,11 +11610,7 @@ nav-link
   padding-top: 0.1rem;
   padding-bottom: 9rem;
  }
-.row_sm{
 
-width:75%;
-
-}
 
 .agenda img {
  
@@ -11626,7 +11623,7 @@ width:75%;
 .agenda .card {
   border: 0;
   border-radius:7%;
-
+  width:50%;
 
 }
 .agenda .card-body {
