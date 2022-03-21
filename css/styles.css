@@ -575,6 +575,11 @@ progress {
   margin-left: calc(-0.5 * var(--bs-gutter-x));
 
 }
+
+.row_sm {
+width:75%;
+}
+
 .row > * {
   flex-shrink: 0;
   width: 100%;
@@ -4428,6 +4433,10 @@ textarea.form-control-lg {
 
 .card-text:last-child {
   margin-bottom: 0;
+}
+
+.card-text{
+	text-align:left;
 }
 
 .card-link + .card-link {
@@ -11623,7 +11632,6 @@ nav-link
 .agenda .card {
   border: 0;
   border-radius:7%;
-  width:50%;
 
 }
 .agenda .card-body {
