@@ -2878,9 +2878,7 @@ textarea.form-control-lg {
     transition: none;
   }
 }
-.btn:hover {
-  color: #212529;
-}
+
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(230, 167, 86, 0.25);
@@ -2890,17 +2888,18 @@ textarea.form-control-lg {
   opacity: 0.65;
 }
 
-.btn-primary {
-  color:black;
-  background-color: #b9ffd7;
-   box-shadow: 0 0 0 0.25rem #4cd67c;
-  
+.btn-xl {
+  font-weight: 1000;
+  font-size: 100px;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top:1rem;
+  color:#019858;
+  box-shadow: 0 0 0 0.50rem #019858;
 }
-.btn-primary:hover {
-  color: #000;
-  background-color: #4cd67c;
-  border-color: #4cd67c;
-}
+
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #000;
   background-color:#4cd67c;
@@ -11272,15 +11271,7 @@ padding-top:4rem;
 
 }
 
-.btn-xl {
-  font-weight: 700;
-  font-size: 2rem;
-  padding-top: 0.8rem;
-  padding-bottom: 0.8rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  margin-top:1rem;
-}
+
 
 #mainNav {
   /*background-color:#00AEAE;*/
@@ -11703,7 +11694,6 @@ nav-link
 
 .col_cen3{
   text-align: center;
-
 }
 
 .table_time{
@@ -11713,6 +11703,10 @@ nav-link
   padding-right:1rem;
   padding-left:2rem;
   font-size:17px;
+}
+
+.end_o{
+	opacity:0.4;
 }
 
 .sm_big{
@@ -11747,6 +11741,22 @@ font-size:23px;
 	padding-right:12%;
 
 }
+
+.end{
+	z-index: 1;
+	position: relative;
+}
+
+.gold-box {
+  position: absolute;
+  z-index: 3;
+  top:36%;
+  left:32%;
+
+
+
+}
+
 
 section{
   font-family: 微軟正黑體;
