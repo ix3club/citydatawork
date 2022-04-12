@@ -11842,8 +11842,8 @@ a{
     font-weight: bold;
     border: 1px solid #EAF0ED;
     &.active{
-          background-color: #EAF0ED;
-    color: #3F5D45;
+    background-color: red;
+    color: red;
     }
   }
 }
