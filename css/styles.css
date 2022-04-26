@@ -11742,6 +11742,11 @@ font-size:23px;
 
 }
 
+.bg_y{
+	background:#FFCC22;
+	font-size:20px;
+}
+
 .end{
 	z-index: 1;
 	position: relative;
