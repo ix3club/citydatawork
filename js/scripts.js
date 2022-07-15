@@ -13,7 +13,7 @@ let tabContents2 = document.getElementById("tab-inner2").querySelectorAll('.form
 window.onload = function (){
 
     // 啟動第一個panel
-     panelDisplay(tabLink2[3]);
+     panelDisplay(tabLink2[0]);
      //點擊  tab a連結
      for(let i = 0; i < tabLink2.length; i++){
        tabLink2[i].addEventListener('click',function(e){
@@ -43,7 +43,7 @@ window.onload = function (){
        };
 
            // 啟動第二個panel
-     panelDisplay2(tabLink[2]); 
+     panelDisplay2(tabLink[0]); 
      //點擊  tab a連結
      for(let i = 0; i < tabLink.length; i++){
        tabLink[i].addEventListener('click',function(e){
